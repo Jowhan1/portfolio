@@ -664,3 +664,12 @@ main {
     }
 }
 
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f2d17d;
+    color: #0e0e0e;
+    font-size: 1em;
+    margin-top: auto;
+}
+
