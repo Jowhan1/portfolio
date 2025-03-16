@@ -1,11 +1,9 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Fullscreen video background */
 .bg-video {
     position: fixed;
     top: 0;
@@ -16,17 +14,15 @@
     z-index: -1;
     opacity: 0.6;
 }
-
-/* Body and font */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.6);
+    color: #f2b9b9;
+    background-color: rgba(129, 22, 22, 0.6);
+    background-color: #333;
     min-height: 100vh;
     padding: 2rem;
 }
 
-/* Header styles */
 header {
     text-align: center;
     margin-top: 4rem;
@@ -35,21 +31,22 @@ header {
 .name {
     font-size: 3rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #e64f4f;
 }
 
 .tagline {
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 1rem;
-    color: #dcdcdc;
+    color: #b0b5c4;
 }
 
-/* Navigation styles */
 nav {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
+    background-color: #ddd;
+    background-size: 25%;
 }
 
 .menu-container {
@@ -81,10 +78,9 @@ nav {
 }
 
 .menu li a:hover {
-    color: #00bcd4;
+    color: #e3d18a;
 }
 
-/* Main content */
 main {
     max-width: 800px;
     margin: 4rem auto;
@@ -94,15 +90,13 @@ main {
 .intro {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #f0f0f0;
+    color: #dede7c;
 }
-
-/* Responsive nav for mobile */
 @media (max-width: 768px) {
     .menu {
         display: none;
         flex-direction: column;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(4, 3, 3, 0.8);
         padding: 1rem;
         position: absolute;
         top: 2.5rem;
@@ -119,21 +113,18 @@ main {
     }
 }
 
-/* General reset and box sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Full page styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header styling */
 .project-header {
     text-align: center;
     margin-top: 4rem;
@@ -154,7 +145,6 @@ body {
     margin-top: 1rem;
 }
 
-/* Navigation styling */
 nav {
     margin-top: 2rem;
     display: flex;
@@ -193,7 +183,6 @@ nav {
     color: #00bcd4;
 }
 
-/* Projects Grid */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -203,7 +192,6 @@ nav {
     padding: 2rem;
 }
 
-/* Individual Project Boxes */
 .project-item {
     background-color: #fff;
     border-radius: 8px;
@@ -223,13 +211,11 @@ nav {
     color: #555;
 }
 
-/* Hover effects for the project boxes */
 .project-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -256,21 +242,18 @@ nav {
     }
 }
 
-/* General reset and box sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Full page styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header styling */
 .contact-header {
     text-align: center;
     margin-top: 4rem;
@@ -291,7 +274,6 @@ body {
     margin-top: 1rem;
 }
 
-/* Navigation styling */
 nav {
     margin-top: 2rem;
     display: flex;
@@ -330,7 +312,6 @@ nav {
     color: #00bcd4;
 }
 
-/* Contact Form Styling */
 .contact-form-container {
     max-width: 800px;
     margin: 4rem auto;
@@ -390,8 +371,6 @@ nav {
 .contact-form button:hover {
     background-color: #0097a7;
 }
-
-/* Mobile responsiveness */
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -413,21 +392,18 @@ nav {
     }
 }
 
-/* General reset and box sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Full page styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header styling */
 header {
     text-align: center;
     margin-top: 4rem;
@@ -448,7 +424,6 @@ header h2 {
     margin-top: 1rem;
 }
 
-/* Navigation styling */
 nav {
     margin-top: 2rem;
     display: flex;
@@ -487,7 +462,6 @@ nav {
     color: #00bcd4;
 }
 
-/* Video Demo Section */
 main {
     max-width: 800px;
     margin: 4rem auto;
@@ -516,7 +490,6 @@ main {
     background-color: #0097a7;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -538,21 +511,18 @@ main {
     }
 }
 
-/* General reset and box sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and Font */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header Styling */
 header {
     text-align: center;
     margin-top: 4rem;
@@ -573,7 +543,6 @@ header h2 {
     margin-top: 1rem;
 }
 
-/* Navigation Styling */
 nav {
     margin-top: 2rem;
     display: flex;
@@ -612,14 +581,12 @@ nav {
     color: #00bcd4;
 }
 
-/* Report content styling */
 main {
     max-width: 800px;
     margin: 4rem auto;
     padding: 2rem;
 }
 
-/* Section Styling for report content */
 .report-container {
     margin-bottom: 2rem;
     padding: 1.5rem;
@@ -658,7 +625,6 @@ main {
     color: #0097a7;
 }
 
-/* Validation Screenshots */
 .report-screenshots {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -672,7 +638,6 @@ main {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
     .menu {
         display: none;
