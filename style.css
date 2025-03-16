@@ -18,7 +18,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f2b9b9;
     background-color: rgba(129, 22, 22, 0.6);
-    background-color: #333;
+    background: url(https://i.pinimg.com/originals/30/8b/b1/308bb17aa483c6fadae58940c66cf79b.gif);
     min-height: 100vh;
     padding: 2rem;
 }
@@ -40,7 +40,6 @@ header {
     margin-top: 1rem;
     color: #b0b5c4;
 }
-
 nav {
     margin-top: 2rem;
     display: flex;
@@ -80,7 +79,6 @@ nav {
 .menu li a:hover {
     color: #e3d18a;
 }
-
 main {
     max-width: 800px;
     margin: 4rem auto;
@@ -92,6 +90,7 @@ main {
     line-height: 1.8;
     color: #dede7c;
 }
+
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -371,6 +370,7 @@ nav {
 .contact-form button:hover {
     background-color: #0097a7;
 }
+
 @media (max-width: 768px) {
     .menu {
         display: none;
