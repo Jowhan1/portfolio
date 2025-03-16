@@ -538,4 +538,163 @@ main {
     }
 }
 
+/* General reset and box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+/* Navigation Styling */
+nav {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: #333;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #00bcd4;
+}
+
+/* Report content styling */
+main {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+
+/* Section Styling for report content */
+.report-container {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-container h2 {
+    font-size: 1.6rem;
+    color: #00bcd4;
+    margin-bottom: 1rem;
+}
+
+.report-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.report-content ul {
+    list-style-type: none;
+}
+
+.report-content ul li {
+    margin: 1rem 0;
+}
+
+.report-content a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.report-content a:hover {
+    color: #0097a7;
+}
+
+/* Validation Screenshots */
+.report-screenshots {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.report-screenshots img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 1rem;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        width: 200px;
+    }
+
+    #menu-toggle:checked + .menu {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .report-screenshots {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
 
