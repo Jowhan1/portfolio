@@ -1,0 +1,414 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fullscreen video background */
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+/* Body and font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.tagline {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    color: #dcdcdc;
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: #ffffff;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #00bcd4;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #f0f0f0;
+}
+
+/* Responsive nav for mobile */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 1rem;
+        position: absolute;
+        top: 2.5rem;
+        right: 0;
+        width: 200px;
+    }
+
+    #menu-toggle:checked + .menu {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+/* General reset and box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+.project-header {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 8px;
+}
+
+.project-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.project-header h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: #333;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #00bcd4;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+
+/* Individual Project Boxes */
+.project-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-item h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Hover effects for the project boxes */
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 1rem;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        width: 200px;
+    }
+
+    #menu-toggle:checked + .menu {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+/* General reset and box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+.contact-header {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 8px;
+}
+
+.contact-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.contact-header h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: #333;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #00bcd4;
+}
+
+/* Contact Form Styling */
+.contact-form-container {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+
+.contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00bcd4;
+    outline: none;
+}
+
+.contact-form button {
+    padding: 1rem 2rem;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0097a7;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 1rem;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        width: 200px;
+    }
+
+    #menu-toggle:checked + .menu {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

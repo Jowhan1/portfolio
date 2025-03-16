@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1087d780ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="contact-header">
+        <h1>Contact Me</h1>
+        <h2>Feel free to reach out for collaborations or inquiries!</h2>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="menu-container">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <input type="checkbox" id="menu-toggle">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="videoDemo.html">Demo</a></li>
+                <li><a href="report.html">Report</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <main class="contact-form-container">
+        <form class="contact-form" action="https://formsubmit.co/jowhansafan123@gmail.com" method="POST">
+            <h3>Get In Touch</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Your message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+</body>
+</html>
