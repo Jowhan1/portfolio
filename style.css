@@ -31,14 +31,14 @@ header {
 .name {
     font-size: 3rem;
     font-weight: 700;
-    color: #e64f4f;
+    color: #0d0a0a;
 }
 
 .tagline {
     font-size: 1.3rem;
-    font-weight: 300;
+    font-weight: 350;
     margin-top: 1rem;
-    color: #b0b5c4;
+    color: #020408;
 }
 nav {
     margin-top: 2rem;
@@ -46,6 +46,7 @@ nav {
     justify-content: center;
     background-color: #ddd;
     background-size: 25%;
+    font-weight: 650;
 }
 
 .menu-container {
@@ -128,8 +129,8 @@ body {
     text-align: center;
     margin-top: 4rem;
     padding: 2rem;
-    background-color: #00bcd4;
-    color: white;
+    background-color: #fbf9a5;
+    color: rgb(220, 15, 15);
     border-radius: 8px;
 }
 
